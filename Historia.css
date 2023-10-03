@@ -1,0 +1,110 @@
+.texto-centralizado {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.texto-centralizado {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-centralizado {
+  font-size: 36px;
+  margin: 0 auto 20px auto;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #73121A,
+      #8C142A);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 800px;
+  /* Ajuste a largura máxima conforme necessário */
+}
+
+.card img {
+  max-width: 40%;
+  /* Defina o tamanho da imagem conforme necessário */
+  border-radius: 5px 0 0 5px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 16px;
+  color: #666;
+}
+
+.team-cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.team-card {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.team-card img {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-details h4 {
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+}
+
+.card-details p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  /* Altura do mapa */
+  margin-top: 20px;
+  /* Margem superior para separar do "Como Chegar" */
+}
+
+
+main {
+  height: 0;
+      padding: 0;
+      /* Adicione margem inferior à seção que contém o footer */
+  
+      margin-bottom: 0;
+      /* Ajuste o valor conforme necessário */
+  
+}

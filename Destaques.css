@@ -1,0 +1,170 @@
+.texto-centralizado {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-destaques {
+  font-size: 56px;
+    margin: 0 auto 20px auto;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #73121A,
+      #8C142A);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+}
+
+.info-atleta {
+  display: flex;
+  align-items: center;
+  /* Centraliza verticalmente */
+}
+
+.imagem-atleta {
+  text-align: center;
+  margin-left: 15rem;
+  /* Adiciona uma margem à esquerda para deslocar a imagem para a direita */
+}
+
+.imagem-atleta img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  /* Adicione espaço abaixo da imagem */
+}
+
+.descricao-atleta {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  margin-top: 0;
+  /* Remove margem superior para aproximar a descrição e o nome da imagem */
+}
+
+.descricao-atleta h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 5px 0;
+  /* Reduz a margem inferior do nome do atleta */
+}
+
+.descricao-atleta p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-top: 0;
+  /* Remove a margem superior da descrição */
+}
+
+
+
+
+/* Estilos para o card */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: 30px;
+  margin-left: 15rem;
+  max-width: 50rem;
+  /* Ajuste a largura máxima conforme necessário */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  /* Ajuste o preenchimento conforme necessário */
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  border-radius: 8px;
+  /* Bordas arredondadas */
+  overflow: hidden;
+  width: 500px;
+  /* Tamanho da imagem */
+  height: 200px;
+  /* Tamanho da imagem */
+  margin-right: 20px;
+  /* Espaçamento à direita da imagem */
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* Evita que a imagem seja distorcida */
+}
+
+.info-text {
+  text-align: left;
+  /* Alinhar texto à esquerda */
+}
+
+.info-text h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.info-text p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+
+/* Estilos para o anúncio */
+.ad-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ad-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ad-content h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.ad-content p {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 20px 0;
+}
+
+.join-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #73121A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #8C142A;
+}

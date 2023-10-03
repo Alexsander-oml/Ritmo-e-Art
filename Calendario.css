@@ -1,0 +1,72 @@
+.texto-centralizado {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.texto-centralizado {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-centralizado {
+  font-size: 56px;
+  margin: 0 auto 20px auto;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #73121A,
+      #8C142A);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+
+}
+
+/* Estilos para os links do calendário */
+.calendario-link {
+  color: #ffffff;
+  /* Cor inicial do texto */
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
+  display: block;
+  /* Alterado para "block" para colocar um abaixo do outro */
+}
+
+/* Estilo de hover para os links do calendário */
+.calendario-link:hover {
+  color: #fff;
+  /* Cor do texto ao passar o mouse */
+  background-color: #73121A;
+  /* Cor de fundo ao passar o mouse */
+}
+
+/* Outros estilos de link, como visitados e ativos */
+.calendario-link:visited {
+  color: #800080;
+  /* Cor para links visitados */
+}
+
+.calendario-link:active {
+  color: #ff0000;
+  /* Cor para links ativos (clicados) */
+}
+
+/* Estilos para o container dos links */
+.calendario-links {
+  text-align: center;
+}
+/* Estilos para o modo light */
+body.light .calendario-link {
+  color: #000;
+  /* Cor do texto para links no modo light */
+}
+
+/* Estilos para o modo dark */
+body.dark .calendario-link {
+  color: #fff;
+  /* Cor do texto para links no modo dark */
+}

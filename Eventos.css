@@ -1,0 +1,43 @@
+/* Adicione estilos CSS para os cards aqui */
+.card-row {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2%;
+  margin-left: 80px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+
+.card p {
+  margin-top: 20px;
+}
+
+/* Estilos para o tema claro */
+.card {
+  background: linear-gradient(#ffffffb4, #cecbcb96);
+  color: #333;
+}
+
+/* Estilos para o tema escuro */
+.dark .card {
+  background: linear-gradient(#1e1e1e, #88061efe);
+  color: #fff;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}

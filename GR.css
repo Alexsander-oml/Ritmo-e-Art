@@ -1,0 +1,124 @@
+.texto-centralizado {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.texto-centralizado {
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+
+.titulo-centralizado {
+  font-size: 36px;
+  margin: 0 auto 0px auto;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #73121A,
+      #8C142A);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.card img {
+  max-width: 40%;
+  border-radius: 5px 0 0 5px;
+}
+
+.card-text {
+  padding: 20px;
+  color: #000;
+}
+
+.card-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  font-size: 16px;
+  color: #666;
+}
+
+.team-card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.team-cards-container {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.team-card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  
+
+}
+
+.team-card img {
+  width: 350px;
+  height: 230px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-details h4 {
+  margin-right: 240px;
+  font-size: 18px;
+  padding: 0;
+  color: #666;
+}
+
+.card-details p {
+  font-size: 14px;
+  color: #000;
+  padding: 5px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+main {
+  height: 0;
+  padding: 0;
+
+  margin-bottom: 0;
+  /* Ajuste o valor conforme necessário */
+
+}

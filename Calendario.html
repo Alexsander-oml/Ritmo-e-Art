@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaques - Ritmo e Art</title>
+    <link rel="icon" href="Conteúdo/logo-ritmo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="ritmo.css">
+    <link rel="stylesheet" href="Calendario.css">
+
+</head>
+
+<body class="dark-mode">
+    <header>
+
+        <nav>
+            <div class="logo-container">
+                <img id="logo" src="Conteúdo/logo-ritmo.png" alt="icone">
+            </div>
+            <ul>
+                <li class="dropdown">
+                    <button class="dropbtn">Sobre</button>
+                    <div class="dropdown-content">
+                        <a href="#">Equipe</a>
+                        <a href="#">História</a>
+                        <a href="#">Atletas</a>
+                        <a href="#">Localização</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Eventos</button>
+                    <div class="dropdown-content">
+                        <a href="#">2023</a>
+                        <a href="#">2022</a>
+                        <a href="#">2021</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Modalidades</button>
+                    <div class="dropdown-content">
+                        <a href="#">G.A</a>
+                        <a href="#">G.R</a>
+                        <a href="#">...</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Calendário</button>
+                    <div class="dropdown-content">
+                        <a href="#">Opção 1</a>
+                        <a href="#">Opção 2</a>
+                        <a href="#">Opção 3</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Destaques</button>
+                    <div class="dropdown-content">
+                        <a href="#">Opção 1</a>
+                        <a href="#">Opção 2</a>
+                        <a href="#">Opção 3</a>
+                    </div>
+                </li>
+            </ul>
+            <button id="mode-toggle" class="mode-button">
+                <i id="mode-icon" class="fas"></i>
+        </nav>
+
+        <div class="banner">
+            <!--adicionar banner-->
+            <img src="Conteúdo/banner1.jpg" alt="Banner de Destaques">
+        </div>
+        <div class="texto-centralizado">
+            <h2 class="titulo-centralizado">Calendário</h2>
+        </div>
+        <div class="calendario-links">
+            <a href="caminho_para_calendario1.pdf" target="_blank" class="calendario-link" id="calendario1">Calendário
+                2023 - Clique Aqui</a>
+            <a href="caminho_para_calendario2.pdf" target="_blank" class="calendario-link" id="calendario2">Calendário
+                2022 - Clique Aqui</a>
+            <a href="caminho_para_calendario3.pdf" target="_blank" class="calendario-link" id="calendario3">Calendário
+                2021 - Clique Aqui</a>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <div class="ad-container">
+        <div class="ad-content">
+            <h2>Junte-se à Ritmo e Arte!</h2>
+            <p>Se você é apaixonado por esportes e arte, venha fazer parte da nossa equipe. Temos oportunidades
+                emocionantes
+                esperando por você.</p>
+            <a href="#" class="join-button">Junte-se a nós</a>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <p class="ff">Neque porro quisquam est qui dolorem ipsum.</p>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Lorem Ipsum</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">AAAAA</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">BBBBB</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">CCCCC</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Lorem Ipsum</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">AAAAA</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">BBBBB</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">CCCCC</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Lorem Ipsum</h3>
+
+                <p>
+                    Neque porro quisquam est qui dolorem ipsum
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved
+        </div>
+    </footer>
+    <button id="scroll-to-top-button" class="round-button">
+        <i class="fas fa-arrow-up"></i>
+        <script src="ritmo.js"></script>
+        <script>
+            // Função para rolar a página suavemente para o topo
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' // Comportamento de rolagem suave
+                });
+            }
+
+            // Adicionar um ouvinte de evento de clique ao botão
+            document.getElementById('scroll-to-top-button').addEventListener('click', scrollToTop);
+        </script>
+
+    </button>
+</body>
+
+</html>
